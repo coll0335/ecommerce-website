@@ -8,23 +8,48 @@
 	– Black: #000000, rgb(0, 0, 0);
 */
 
+/* Small Bucket */
+
 .cntr img {
 	padding: 1em 1em 4em;
-	margin-bottom: -105px;
+	margin-bottom: -65px;
 }
 
-.cntr h4, p {
+.cntr h4,
+.cntr p {
 	padding: 0 25px;
 }
 
 .cntr p {
-	margin-top:-10px;
+	margin-top:-20px;
 }
 
-.img:hover,
-.img:focus,
-.img:active {
-	opacity: 0.9;
+/* Large Bucket */
 
+.lrg-cntr img {
+	padding: 1em 1.5em;
+	margin-bottom: -80px;
+}
+
+.lrg-cntr h4 {
+	margin-top: 10px;
+}
+
+.lrg-cntr h4,
+.lrg-cntr p {
+	padding: 0 10px;
+}
+
+.lrg-cntr p {
+	margin-top: -18px;
+}
+
+.cntr-body {
+	background-color: rgba(0, 0, 0,0.2);
+	position: absolute;
+	width: 750px;
+	height: 68px;
+	margin-left: 1.5em;
+	margin-top: -10px;
 }
 
