@@ -1,0 +1,15 @@
+.btn,
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	color: rgb(255,255,255);
+	margin:0 4em;
+	padding: .5em 1em;
+	border-bottom: none;
+	background-color: #A14949;
+	background-image: linear-gradient(to bottom, #A14949, #A12727);
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+	font-weight: bold;
+}
+
