@@ -6,3 +6,25 @@
 	– Black: #000000, rgb(0, 0, 0);
 */
 
+.product {
+	overflow: auto;
+	margin-bottom: 2em;
+}
+
+.product img {
+	float: left;
+	display: block;
+}
+
+.product h4,
+.product p {
+	float: right;
+	width:70%;
+	margin-left: 2px;
+}
+
+.product h4 {
+	margin-top: 50px;
+}
+
+
