@@ -22,6 +22,10 @@ html {
 	text-size-adjust: 100%;
 }
 
+.centered {
+	text-align: center;
+}
+
 
 body {
 	margin: 0 auto;

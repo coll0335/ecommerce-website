@@ -13,9 +13,6 @@
 	font-family: 'entypo', sans-serif;
 }
 
-body{
-	padding: 20px;
-}
 
 .srch-only{
 	position: absolute;
@@ -28,6 +25,8 @@ body{
 
 .search-box {
 	position: relative;
+	width: 85%;
+	margin: 0 auto 0rem;
 }
 
 input[type='search'] {
