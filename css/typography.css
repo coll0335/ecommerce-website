@@ -208,13 +208,10 @@ tbody td:nth-child(even) {
 	background-color: rgba(161, 73, 73,0.4);
 }
 
-footer {
-	background-color: rgb(161, 73, 73);
+.footer {
 	padding: .5rem;
-	float: left;
 	display: block;
-	width: 100%;
-	color:white;
+	overflow: hidden;
 }
 
 
