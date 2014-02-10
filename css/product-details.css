@@ -28,4 +28,25 @@
 	margin: .5em 0;
 }
 
+.ps {
+	border-bottom: 1px solid rgba(84,30,30,0.7);
+}
+
+.social {
+	margin-top: .75em;
+}
+
+.social li {
+	margin: .75em 0;
+	margin-right:1em ;
+
+}
+
+.social img {
+	background-color: rgb(84,30,30);
+	padding:.3em;
+	vertical-align: middle;
+	margin-right: .5em;
+}
+
 
