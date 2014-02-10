@@ -108,6 +108,11 @@ h4, h5, h6,
 	font-family: 'Advent Pro',sans-serif;
 }
 
+.brand-family-body {
+	font-family: 'Open Sans',sans-serif;
+	letter-spacing:1px;
+}
+
 .brand-color {
 	color: #A14949;
 }
