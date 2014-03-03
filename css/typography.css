@@ -26,6 +26,10 @@ html {
 	text-align: center;
 }
 
+.un-centered {
+	text-align:left;
+}
+
 
 body {
 	margin: 0 auto;
@@ -213,11 +217,6 @@ tbody td:nth-child(even) {
 	background-color: rgba(161, 73, 73,0.4);
 }
 
-.footer {
-	padding: .5rem;
-	display: block;
-	overflow: hidden;
-}
 
 
 
