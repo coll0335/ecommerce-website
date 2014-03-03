@@ -29,17 +29,17 @@
 }
 
 .i-facebook {
-	background-image: url("../images/icons/i-facebook.svg");
+	background-image: url("../images/facebook-icon.png");
 }
 
 .i-twitter {
-	background-image: url("../images/icons/i-twitter.svg");
+	background-image: url("../images/twitter-icon.png");
 }
 
 .i-pinterest {
 	background-image: url("../images/icons/i-pinterest.svg");
 }
 
-.i-googleplus {
-	background-image: url("../images/icons/i-googleplus.svg");
+.i-instagram {
+	background-image: url("../images/instagram_logo.png");
 }
