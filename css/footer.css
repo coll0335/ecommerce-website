@@ -9,7 +9,11 @@
 
 .footer {
 	margin-top: 1.5em;
+	padding: .5rem;
+	display: block;
+	overflow: hidden;
 	border-top: 3px solid rgba(84, 30, 30,0.6);
+	vertical-align: middle;
 }
 
 .footer h5 {
@@ -19,6 +23,14 @@
 
 .footer img {
 	margin-top: .5rem;
+}
+
+.si img {
+	width: 30px;
+	background-color: rgb(84,30,30);
+	padding:.2em;
+	vertical-align: middle;
+	margin-right: .5em;
 }
 
 @media only screen and (min-width: 34em){
