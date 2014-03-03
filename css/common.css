@@ -24,9 +24,18 @@ body {
   padding: 0;
 }
 
+.substance {
+  margin-top: .5rem;
+  padding: 1.5rem;
+}
+
+.sub-ty {
+  width: 100%;
+  height: 50%;
+}
+
 .ir {
   overflow: hidden;
-
   text-indent: 100%;
   white-space: nowrap;
 }
@@ -34,4 +43,5 @@ body {
 .img-flex {
   display: block;
   width: 100%;
+  margin-bottom: .5rem;
 }
