@@ -60,4 +60,29 @@
 
 }
 
+.current {
+	opacity: .5;
+	padding-top: -2rem;
+}
+
+.banner {
+	background: #541E1E url("../images/banner-index.jpg") no-repeat center;
+	background-size:cover;
+	text-align: center;
+	padding: 9rem 0 0 0;
+}
+
+.banner h2 {
+	color: #fff;
+	letter-spacing: 4px;
+	background-color: rgba(0,0,0,0.6);
+	padding:.5rem 0;
+}
+
+.banner-about {
+	background: url("../images/banner-about.jpg") no-repeat center;
+	background-size:cover;
+	text-align: center;
+	}
+
 
