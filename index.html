@@ -1,21 +1,38 @@
 ---
 layout: default
+title: Home
+meta: "Prociding you with latest trends to vintage style"
+showbanner: yes
+bannertext: Fall Clearance!
 ---
 
-<div class="grid substance">
-	<div>
-		<div class=" centered unit unit-s-1 unit-m-1 unit-l-1">
-			<h2 class="brand-transform" >Add an extra dimension into your wardrobe</h2>
+
+<div class=" unit unit-s-1 unit-m-1 unit-l-1">
+
+	<div class="grid unit unit-s-1 unit-m-1 unit-l-1 promo-group">
+
+		<div class="gutter unit unit-s-1 unit-m-1-4 unit-l-1-4">
+			{% include promo-small.html title="Promo A" desc="Lorem ipsum dolor sit amet." image="product-1.jpg" %}
 		</div>
-		<div class=" unit unit-s-1 unit-m-1 unit-l-1">
-			<img class="img-flex" src="images/jerick-1.jpg" alt="Model 1">
-			<p class="centered brand">Spotnik Street Wear offers high quality clothing. From whats current to old vintage designs </p>
-			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
+
+		<div class="gutter unit unit-s-1 unit-m-1-4 unit-l-1-4">
+			{% include promo-small.html title="Promo B" desc="Lorem ipsum dolor sit amet." image="product-2.jpg" %}
 		</div>
+
+		<div class="gutter unit unit-s-1 unit-m-1-4 unit-l-1-4">
+			{% include promo-small.html title="Promo C" desc="Lorem ipsum dolor sit amet." image="product-3.jpg" %}
+		</div>
+
+		<div class="gutter unit unit-s-1 unit-m-1-4 unit-l-1-4">
+			{% include promo-small.html title="Promo C" desc="Lorem ipsum dolor sit amet." image="product-4.jpg" %}
+		</div>
+
 	</div>
+
+	<div class="grid unit unit-s-1 unit-m-1-3 unit-l-1-3">
+			<div>
+				{% include promo-large.html title="Large Promo" desc="Lorem ipsum dolor sit amet, consectetur." image="jerick-2.jpg" %}
+			</div>
+	</div>
+
 </div>
