@@ -62,7 +62,6 @@
 
 .current {
 	opacity: .5;
-	padding-top: -2rem;
 }
 
 .banner {
@@ -80,9 +79,12 @@
 }
 
 .banner-about {
-	background: url("../images/banner-about.jpg") no-repeat center;
-	background-size:cover;
-	text-align: center;
+	background-image: url("../images/banner-about.jpg");
 	}
+
+	.banner-products {
+		background-image: url("../images/jerick-2.jpg");
+	}
+
 
 
