@@ -2,7 +2,7 @@
 <html lang="en-ca">
 	<head>
 		<meta charset="utf-8">
-		<title>Product Details</title>
+		<title>{{page.title}} · Product Details</title>
 		<link href="../css/reset.css" rel="stylesheet">
 		<link href="../css/typography.css" rel="stylesheet">
 		<link href="../css/buttons.css" rel="stylesheet">
@@ -13,18 +13,18 @@
 	</head>
 		<body>
 			<div class="gutter title unit unit-s-1 unit-m-1 unit-l-1">
-				<h3>Product Name</h3>
+				<h3>{{include.title}}</h3>
 			</div>
 			<div class="product-box list-group-item unit">
 				<div class="left-panel gutter unit unit-s-1 unit-m-1-2 unit-l-1-2 lis-group-item">
 					<div class="main-img">
-						<img class="img-flex" src="http://placehold.it/200x200" alt="Product Placeholder">
+						<img class="img-flex" src="{{site.baseurl}}/images/{{include.image}}" alt="Product Placeholder">
 					</div>
 					<div class="img-preview unit unit-s-1 unit-m-1 unit-l-1">
 							<ul class=" unit unit-s-1 unit-m-1 unit-l-1 list-group-item-inline">
+								<li><img class="img-flex gutter unit unit-s-1-3 unt-m-1-3 unit-l-1-3 list-group-item-inline" src="{{site.baseurl}}/images/{{include.image}}" alt="Product-Preview"></li>
 								<li><img class="img-flex gutter unit unit-s-1-3 unt-m-1-3 unit-l-1-3 list-group-item-inline" src="http://placehold.it/100x100" alt="Product-Preview"></li>
-								<li><img class="img-flex gutter unit unit-s-1-3 unt-m-1-3 unit-l-1-3 list-group-item-inline" src="http://placehold.it/100x100" alt="Product-Preview"></li>
-								<li><img class="img-flex gutter unit unit-s-1-3 unt-m-1-3 unit-l-1-3 list-group-item-inline" src="http://placehold.it/100x100" alt="Product-Preview"></li>
+								<li><img class="img-flex gutter unit unit-s-1-3 unt-m-1-3 unit-l-1-3 list-group-item-inline" src="{{site.baseurl}}/images/{{include.image}}" alt="Product-Preview"></li>
 							</ul>
 						</div>
 				</div>
@@ -33,7 +33,7 @@
 
 					<div class="unit unit-s-1 unit-m-1-2 unit-l-1-2">
 						<div class="unit unit-s-1 unit-m-1 unit-l-1">
-							<h5>Product Brand</h5>
+							<h5>{{include.brand}}</h5>
 						</div>
 					</div>
 
@@ -68,9 +68,9 @@
 							<div class="social unit unit-s-1 unit-m-1 unit-l-1 list-group-item">
 							<h5>Share on</h5>
 								<ul class="unit unit-s-1 unit-m-1 unit-l-1 brand milli">
-									<li class="list-group-item-inline unit unit-s-1-2  unit-m-1-2 unit-l-2"><img src="../images/facebook-icon.png" alt="Facebook Icon"><a href="#">Facebook</a></li>
-									<li class="list-group-item-inline unit unit-s-1-2 unit-m-1-3 unit-l-3" ><img src="../images/twitter-icon.png" alt="Twitter Icon"><a href="#">Twitter</a></li>
-									<li class="list-group-item-inline unit unit-s-1-2 unit-m-1-3 unit-l-3"><img src="../images/instagram_logo.png" alt="Instagram Logo"><a href="#">Instagram</a></li>
+									<li class="list-group-item-inline unit unit-s-1-2  unit-m-1-2 unit-l-2"><img src="{{site.baseurl}}/images/facebook_icon.png" alt="Facebook Icon"><a href="#">Facebook</a></li>
+									<li class="list-group-item-inline unit unit-s-1-2 unit-m-1-3 unit-l-3" ><img src="{{site.baseurl}}/images/twitter-icon.png" alt="Twitter Icon"><a href="#">Twitter</a></li>
+									<li class="list-group-item-inline unit unit-s-1-2 unit-m-1-3 unit-l-3"><img src="{{site.baseurl}}/images/instagram_logo.png" alt="Instagram Logo"><a href="#">Instagram</a></li>
 								</ul>
 						</div>
 
