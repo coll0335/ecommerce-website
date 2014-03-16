@@ -1,0 +1,24 @@
+---
+layout: default
+title: Products
+showbanner: yes
+bannertext: Enjoy our wide variety of selection
+bannerclass: banner-products
+---
+
+<h1>Products</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, necessitatibus ut sit laudantium ratione cum fuga magni quaerat enim quasi.</p>
+
+<ul class="grid">
+	{% for products in site.pages %}
+		{% if products.category == 'product' %}
+			<li class="unit kind gutter centered unit-s-1 unit-m-1-4 unit-l-1-5">
+				<a href="{{site.baseurl}}{{products.url}}">
+					<img class="img-flex" src="{{site.baseurl}}/images/{{products.image}}" alt="">
+					{{products.name}}
+				</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
+
