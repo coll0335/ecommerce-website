@@ -1,0 +1,25 @@
+---
+layout: product-list
+title: Tops
+category: product
+image: tops/top-7.jpg
+showbanner: yes
+bannertext: Enjoy our wide variety of selection
+bannerclass: banner-products
+---
+
+<h1 class="unit unit-s-1 unit-m-1 unit-l-1"><a href="{{page.base.url}}/products">{{page.title}}</a></h1>
+
+<ul class="grid">
+	{% for tops in site.pages %}
+		{% if tops.category == 'top' %}
+			<li class="item-disp unit kind gutter centered unit-s-1 unit-m-1-4 unit-l-1-4">
+				<a class="kilo" href="{{site.baseurl}}{{tops.url}}">
+					<img class="img-flex" src="{{site.baseurl}}/images/{{tops.image}}" alt="">
+					{{tops.name}}
+				</a>
+				<p class="milli">{{tops.price}}</p>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>

@@ -1,0 +1,25 @@
+---
+layout: product-list
+title: Accessories
+category: product
+image: accessories/accessory-1.jpg
+showbanner: yes
+bannertext: Enjoy our wide variety of selection
+bannerclass: banner-products
+---
+
+<h1 class="unit unit-s-1 unit-m-1 unit-l-1"><a href="{{page.base.url}}/products">{{page.title}}</a></h1>
+
+<ul class="grid">
+	{% for accessories in site.pages %}
+		{% if accessories.category == 'accessory' %}
+			<li class="item-disp unit kind gutter centered unit-s-1 unit-m-1-4 unit-l-1-4">
+				<a class="kilo" href="{{site.baseurl}}{{accessories.url}}">
+					<img class="img-flex" src="{{site.baseurl}}/images/{{accessories.image}}" alt="">
+					{{accessories.name}}
+				</a>
+				<p class="milli">{{accessories.price}}</p>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
