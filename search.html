@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<h2>Search Result For Accessories</h2>
+
+	<ul class="grid">
+	{% for accessories in site.pages %}
+		{% if accessories.category == 'search' %}
+			<li class=" unit kind gutter centered unit-s-1 unit-m-1-4 unit-l-1-4">
+				<a class="kilo" href="{{site.baseurl}}{{accessories.url}}">
+					<img class="img-flex" src="{{site.baseurl}}/images/{{accessories.image}}" alt="">
+					{{accessories.name}}
+				</a>
+				<a class="centered gutter btn micro unit unit-s-3-4 unit-m-1 unit-l-1" href="{{site.baseurl}}{{accessories.url}}">More Info</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
