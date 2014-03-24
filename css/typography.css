@@ -187,33 +187,44 @@ code {
 	margin-left: 1.5em;
 }
 
-dt {
-	font-weight: bold;
-}
-
-dd {
-	font-weight: lighter;
-	margin-left: 1.5em;
-}
-
 table {
+	width: 100%;
 }
 
 th {
-	font-variant: small-caps;
-	padding: 1.5em;
+	text-transform: uppercase;
+	font-size: 12px;
+	background-color: rgba(84,30,30,0.2);
+	padding: .5rem 2.5rem;
+	text-align: left;
 }
+
+th:first-child {
+	padding-right: 50%;
+}
+
+tr:first-child,
+tr:last-child {
+	border: none;
+}
+
+
+tr {
+	border-bottom: 1px dashed rgba(0,0,0,0.1);
+}
+
 
 thead th {
 	padding: 0 0 -1em;
 }
 
 td {
-	padding: 2.5em;
+	margin-top: -2rem;
+	vertical-align: middle;
 }
 
-tbody td:nth-child(even) {
-	background-color: rgba(161, 73, 73,0.4);
+td:first-child {
+	padding-left: 1.5rem;
 }
 
 
