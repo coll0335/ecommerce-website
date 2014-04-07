@@ -6,33 +6,34 @@ showbanner: yes
 bannertext: Fall Clearance!
 ---
 
-
+<main role="main">
 <div class=" unit unit-s-1 unit-m-1 unit-l-1">
 
 	<div class="grid unit unit-s-1 unit-m-1 unit-l-1 promo-group">
 
 		<div class="gutter unit unit-s-1 unit-m-1-4 unit-l-1-4">
-			{% include promo-small.html title="Promo A" desc="Lorem ipsum dolor sit amet." image="accessories/accessory-6.jpg" url="/products/accessories/accessory-6/" %}
+			{% include promo-small.html title="Five Panel Hat" desc="$35.99" image="accessories/accessory-6.jpg" url="/products/accessories/accessory-6/" %}
 		</div>
 
 		<div class="gutter unit unit-s-1 unit-m-1-4 unit-l-1-4">
-			{% include promo-small.html title="Promo B" desc="Lorem ipsum dolor sit amet." image="tops/top-6.jpg" url="/products/tops/top-6/" %}
+			{% include promo-small.html title="Tokyo Hourglass T" desc="$25.99" image="tops/top-6.jpg" url="/products/tops/top-6/" %}
 		</div>
 
 		<div class="gutter unit unit-s-1 unit-m-1-4 unit-l-1-4">
-			{% include promo-small.html title="Promo C" desc="Lorem ipsum dolor sit amet." image="outer-wear/outerwear-3.jpg" url="/products/outerwear/ow-3/" %}
+			{% include promo-small.html title="Dessert Camo Jacket" desc="$125.00" image="outer-wear/outerwear-3.jpg" url="/products/outerwear/ow-3/" %}
 		</div>
 
 		<div class="gutter unit unit-s-1 unit-m-1-4 unit-l-1-4">
-			{% include promo-small.html title="Promo C" desc="Lorem ipsum dolor sit amet." image="bottoms/pants-3.jpg" url="/products/bottoms/pants-3/" %}
+			{% include promo-small.html title="Olive Khakis" desc="$50.00" image="bottoms/pants-3.jpg" url="/products/bottoms/pants-3/" %}
 		</div>
 
 	</div>
 
 	<div class="grid unit unit-s-1 unit-m-1 unit-l-1">
-			<div>
-				{% include promo-large.html title="Large Promo" desc="Lorem ipsum dolor sit amet, consectetur." image="product-5.jpg" url="/products/product-5/" %}
-			</div>
+		<a href="{{site.baseurl}}/clearance">
+		{% include promo-large.html title="Clerance Sale" desc="Mix and match with our end of the year sale" image="product-5.jpg" url="/products/product-5/" %}
+		</a>
 	</div>
 
 </div>
+</main>
