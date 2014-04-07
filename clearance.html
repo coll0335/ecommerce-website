@@ -1,0 +1,20 @@
+---
+layout: product-list
+title: Clearance Items
+---
+
+<h1 class="unit unit-s-1 unit-m-1 unit-l-1"><a href="{{page.base.url}}/">{{page.title}}</a></h1>
+
+<ul class="grid">
+	{% for products in site.pages %}
+		{% if products.category3 == 'clearance' %}
+			<li class="item-disp unit kind gutter centered unit-s-1 unit-m-1-4 unit-l-1-4">
+				<a class="kilo" href="{{site.baseurl}}{{products.url}}">
+					<img class="img-flex" src="{{site.baseurl}}/images/{{products.image}}" alt="">
+					{{products.name}}
+				</a>
+				<p class="milli">{{products.price}}</p>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
