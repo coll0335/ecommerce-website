@@ -25,6 +25,14 @@
 	padding-bottom: -1rem;
 }
 
+.promo-small a,
+.promo-large a,
+.item-disp a,
+.kind a,
+.item-disp a {
+	display: block;
+}
+
 .promo-small h5 {
 	margin:0;
 	color: rgba(0, 0, 0,0.6)
@@ -58,7 +66,6 @@
 .mini {
 	width: 100px;
 }
-
 
 @media only screen and (min-width: 30em) {
 
