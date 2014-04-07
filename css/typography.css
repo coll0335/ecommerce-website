@@ -130,26 +130,31 @@ a:link,
 dfn, abbr, ins {
 	color:#541E1E;
 	text-decoration: none;
-	border-bottom: .1em solid  rgba(161, 73, 73, 0.2);
 	transition: all 200ms linear;
 }
 
 a:visited {
 	color:rgb(84,30,30);
-	border-bottom: 0.1em solid rgb(84,30,30);
 }
 
 a:hover,
 a:focus,
 a:active {
 	color: rgba(39,83,110, 1.0);
-	border-bottom: rgba(39,83,110, 0.4) solid;
+}
+
+a:hover,
+a:active {
+	outline: none;
+}
+
+a:focus {
+	outline: 3px solid #000;
 }
 
 abbr:hover,
 dfn:hover {
 	cursor: help;
-	border-bottom: .1em dotted  rgba(161, 73, 73, 0.4);
 }
 
 blockquote {
