@@ -1,7 +1,8 @@
 ---
 layout: product-details
 category: accessory
-category: search
+category2: search
+blurb: New to the collection. This black snapback offers a subtle enhancement to your wardrobe.
 name: Black Snapback
 image: accessories/accessory-10.jpg
 showbanner: yes
