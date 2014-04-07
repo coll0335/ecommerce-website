@@ -2,9 +2,9 @@
 
 User testing was conducted by Mark Collantes on March 24, 2014 between the times of 4:00 PM and 7:00 PM with the following participants:
 
-- {Jane Doe}
-- {John Doe}
-- {Jordan Doe}
+- {Jared Label}
+- {Stphen Pollock}
+- {Chelsey Frohlick}
 
 ## Tasks
 
