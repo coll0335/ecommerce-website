@@ -8,6 +8,7 @@
 {% include css/common.css %}
 {% include css/embed.css %}
 {% include css/grid.css %}
+{% include css/forms.css %}
 {% include css/icons.css %}
 {% include css/list-group.css %}
 {% include css/media-object.css %}
