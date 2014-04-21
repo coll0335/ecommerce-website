@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Products
+meta: "Pick from our wive variety of products"
 showbanner: yes
 bannertext: Enjoy our wide variety of selection
 bannerclass: banner-products
 ---
 
 <h1>Products</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi, necessitatibus ut sit laudantium ratione cum fuga magni quaerat enim quasi.</p>
+<p>Browse through our wide variety of products</p>
 
 <ul class="grid">
 	{% for products in site.pages %}
 		{% if products.category == 'product' %}
-			<li class="unit kind gutter centered unit-s-1 unit-m-1-4 unit-l-1-5">
+			<li class="product-cat unit kind gutter centered unit-s-1 unit-m-1-4 unit-l-1-5">
 				<a href="{{site.baseurl}}{{products.url}}">
 					<img class="img-flex" src="{{site.baseurl}}/images/{{products.image}}" alt="">
 					{{products.title}}

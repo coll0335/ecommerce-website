@@ -1,0 +1,11 @@
+# http://en-wikipedia.org/wiki/Robots_exclusive_standard
+# http://www.robotstext.org
+
+Sitemap: http://coll0335.github.io/ecommerce-website/sitemap.xml
+
+User-agent: *
+Disallow: /*/
+Disallow: /tmp/
+Disallow: /assets/
+
+

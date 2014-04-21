@@ -33,16 +33,13 @@
 	margin-right: .5em;
 }
 
-.btm-nav div:nth-child(2) {
-	margin-left: -2rem;
+.btm-nav ul {
+	margin: 0 auto;
 }
 
-
-
-@media only screen and (min-width: 34em){
-	.map {
-		margin: auto 0;
-	}
+.btm-nav .sections {
+	padding: 0 1.5rem;
 }
+
 
 
